@@ -257,6 +257,17 @@ footer nav {
     
     @media screen and (max-width: 500px) {
     /* start of phone styles */
+    nav.nav-bar{
+        flex-direction: column;
+        text-align:  center
+    }
+    button.home {
+        text-align:  center
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
     section {
         text-align: Right;
        
@@ -266,6 +277,13 @@ footer nav {
         background-color: rgba(207, 156, 17, 0.842);
        
     }
+    .boxes {
+        
+        flex-wrap: wrap;
+        flex-shrink: 3;
+
+    }
+
     }
     
     
